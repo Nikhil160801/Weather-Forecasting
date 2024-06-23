@@ -21,7 +21,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 50vw;
     text-align: center;
-   
 }
 
 .search-bar {
@@ -60,4 +59,21 @@ button:hover {
     background: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 4px;
+}
+
+@media only screen and (max-width:600px) {
+    #city-input {
+        margin: 5px;
+        width: 150px;
+    }
+    .container {
+        width: 80vw;
+    }
+
+}
+@media only screen and (max-width:250px) {
+    .container {
+        background:none;
+        width: 100vw;
+    }
 }
